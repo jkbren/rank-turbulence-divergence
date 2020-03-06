@@ -116,9 +116,7 @@ Bibtex:
 }
 ```
 
-## This repo uses ideas and insights about network comparison.
-
-## If interested, also check out:
+#### This repo uses ideas and insights about network comparison. If that interests you, also check out:
 
 * Hartle, H., Klein, B., McCabe, S. St-Onge, G., Murphy, C., Daniels, A.,
 & Hébert-Dufresne, L. (under review).
