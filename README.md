@@ -11,7 +11,7 @@ for comparing complex systems.*
 
 
 ## Playground Notebooks
-1. [rank_turbulence_divergence](https://nbviewer.jupyter.org/github/jkbren/rank-turbulence-divergence/rank_turbulence_divergence.ipynb)
+1. [rank_turbulence_divergence](https://nbviewer.jupyter.org/github/jkbren/rank-turbulence-divergence/blob/master/code/rank_turbulence_divergence.ipynb), which uses the `rtd.py` script, where the actual implementation is.
 
 
 ## Installation and Usage
@@ -24,17 +24,17 @@ the code does not run.
 ## Requirements  <a name="requirements"/>
 
 This code is written in [Python 3.x](https://www.python.org) and uses 
-the following packages:
+the following packages / tools:
 
-* [NetworkX](https://networkx.github.io)
 * [Scipy](http://www.scipy.org/)
 * [Numpy](http://numpy.scipy.org/)
 * [Itertools](https://docs.python.org/2/library/itertools.html)
+* [Collections](https://docs.python.org/2/library/collections.html)
 
 - - - -
 
 <p align="center">
-<img src="figs/pngs/rank_divurbulence-rgg.png" alt="rank_turb" width="65%"/>
+<img src="figs/pngs/rank_divurbulence.png" alt="rank_turb" width="65%"/>
 </p>
 
 **<p align="center">Fig. 1: *Rank-turbulence divergence* betweeen two simple vectors.</center>**
@@ -65,7 +65,7 @@ Bibtex:
 }
 ```
 
-## This repo also uses ideas about the network comparison:
+## This repo uses ideas and insights about network comparison. See also:
 
 * Hartle, H., Klein, B., McCabe, S. St-Onge, G., Murphy, C., Daniels, A.,
 & Hébert-Dufresne, L. (under review).
