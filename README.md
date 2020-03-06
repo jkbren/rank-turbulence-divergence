@@ -1,7 +1,7 @@
 # The rank-turbulence divergence
 
-An attempt at implementing a python version of What  follows is a python
-playground looking at the recent paper:
+An attempt at implementing a python version of the rank-turbulence divergence,
+introduced in the recent paper:
 
 - Dodds, P.S.,  Minot, J. R., Arnold, M. V., Alshaabi, T., Adams, J. L.,
 Dewhurst, D. R., Gray, T. J., Frank, M. R., Reagan, A. J., Danforth C. M.
