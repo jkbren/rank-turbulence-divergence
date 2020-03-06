@@ -9,6 +9,8 @@ Dewhurst, D. R., Gray, T. J., Frank, M. R., Reagan, A. J., Danforth C. M.
 for comparing complex systems.* 
 [arXiv 2002.09770](https://arxiv.org/abs/2002.09770).
 
+- - - -
+
 Below is the definition of the rank-turbulence divergence. For the most detailed version of this definition, including motivation and discussion of its various features, see Section II.D (no relation) of the paper.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{300}&space;\begin{align}&space;D_{\alpha}^{R}(R_1||R_2)&space;&=&space;\sum_{\tau&space;\in&space;R_{1,2;\alpha}}&space;\delta&space;D_{\alpha,\tau}^{R}(R_1||R_2)\nonumber\\&space;&=&space;\dfrac{1}{\mathcal{N}_{1,2;\alpha}}&space;\dfrac{\alpha&plus;1}{\alpha}&space;\sum_{\tau&space;\in&space;R_{1,2;\alpha}}&space;\Big\vert&space;\dfrac{1}{\big[r_{\tau,1}\big]^\alpha}&space;-&space;\dfrac{1}{\big[r_{\tau,2}\big]^\alpha}&space;\Big\vert^{1/(\alpha&plus;1)}\nonumber&space;\end{align}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\begin{align}&space;D_{\alpha}^{R}(R_1||R_2)&space;&=&space;\sum_{\tau&space;\in&space;R_{1,2;\alpha}}&space;\delta&space;D_{\alpha,\tau}^{R}(R_1||R_2)\nonumber\\&space;&=&space;\dfrac{1}{\mathcal{N}_{1,2;\alpha}}&space;\dfrac{\alpha&plus;1}{\alpha}&space;\sum_{\tau&space;\in&space;R_{1,2;\alpha}}&space;\Big\vert&space;\dfrac{1}{\big[r_{\tau,1}\big]^\alpha}&space;-&space;\dfrac{1}{\big[r_{\tau,2}\big]^\alpha}&space;\Big\vert^{1/(\alpha&plus;1)}\nonumber&space;\end{align}" title="\begin{align} D_{\alpha}^{R}(R_1||R_2) &= \sum_{\tau \in R_{1,2;\alpha}} \delta D_{\alpha,\tau}^{R}(R_1||R_2)\nonumber\\ &= \dfrac{1}{\mathcal{N}_{1,2;\alpha}} \dfrac{\alpha+1}{\alpha} \sum_{\tau \in R_{1,2;\alpha}} \Big\vert \dfrac{1}{\big[r_{\tau,1}\big]^\alpha} - \dfrac{1}{\big[r_{\tau,2}\big]^\alpha} \Big\vert^{1/(\alpha+1)}\nonumber \end{align}" /></a>
@@ -19,10 +21,10 @@ where *r* refers to the (float) ranking of element &tau; (for example, a team in
 
 (equations rendered with HTML output from https://www.codecogs.com/latex/eqneditor.php)
 
-## Playground Notebooks
-1. [rank_turbulence_divergence](https://nbviewer.jupyter.org/github/jkbren/rank-turbulence-divergence/blob/master/code/rank_turbulence_divergence.ipynb), which uses the `rtd.py` script, where the actual implementation is. Note also that this is... where the bugs are going to be. If you find them, please yell at me.
+- - - -
 
-## Installation and Usage
+
+# Installation and Usage
 
 In order to use this code, first clone/download the repository. 
 Below is a simple example usage. Please feel free to reach 
@@ -39,6 +41,18 @@ the following packages / tools:
 * [Itertools](https://docs.python.org/2/library/itertools.html)
 * [Collections](https://docs.python.org/2/library/collections.html)
 
+## Playground Notebooks
+1. [rank_turbulence_divergence](https://nbviewer.jupyter.org/github/jkbren/rank-turbulence-divergence/blob/master/code/rank_turbulence_divergence.ipynb), which uses the `rtd.py` script, where the actual implementation is. Note also that this is... where the bugs are going to be. If you find them, please yell at me.
+
+- - - -
+
+<p align="center">
+<img src="figs/pngs/rank_divurbulence.png" alt="rank_turb" width="90%"/>
+</p>
+
+**<p align="center">Fig. 1: *Rank-turbulence divergence* betweeen two simple vectors.</center>**
+
+- - - -
 
 ## Basic usage
 ```
@@ -81,17 +95,9 @@ rtd = 0.45924793111057804
 
 - - - -
 
-<p align="center">
-<img src="figs/pngs/rank_divurbulence.png" alt="rank_turb" width="90%"/>
-</p>
-
-**<p align="center">Fig. 1: *Rank-turbulence divergence* betweeen two simple vectors.</center>**
-
-- - - -
-
 ## Citation   <a name="citation"/>
 
-If you use these methods and this code in your own research, please cite this:
+Play around with this measure, it rocks! If you use it in your work, be sure to cite these folks:
 
 Dodds, P.S.,  Minot, J. R., Arnold, M. V., Alshaabi, T., Adams, J. L.,
 Dewhurst, D. R., Gray, T. J., Frank, M. R., Reagan, A. J., Danforth C. M.
@@ -110,7 +116,9 @@ Bibtex:
 }
 ```
 
-## This repo uses ideas and insights about network comparison. See also:
+## This repo uses ideas and insights about network comparison.
+
+## If interested, also check out:
 
 * Hartle, H., Klein, B., McCabe, S. St-Onge, G., Murphy, C., Daniels, A.,
 & Hébert-Dufresne, L. (under review).
