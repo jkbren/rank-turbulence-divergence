@@ -34,7 +34,7 @@ the following packages / tools:
 - - - -
 
 <p align="center">
-<img src="figs/pngs/rank_divurbulence.png" alt="rank_turb" width="65%"/>
+<img src="figs/pngs/rank_divurbulence.png" alt="rank_turb" width="90%"/>
 </p>
 
 **<p align="center">Fig. 1: *Rank-turbulence divergence* betweeen two simple vectors.</center>**
