@@ -11,7 +11,7 @@ for comparing complex systems.*
 
 
 ## Playground Notebooks
-1. [rank_turbulence_divergence](https://nbviewer.jupyter.org/github/jkbren/rank-turbulence-divergence/blob/master/code/rank_turbulence_divergence.ipynb), which uses the `rtd.py` script, where the actual implementation is.
+1. [rank_turbulence_divergence](https://nbviewer.jupyter.org/github/jkbren/rank-turbulence-divergence/blob/master/code/rank_turbulence_divergence.ipynb), which uses the `rtd.py` script, where the actual implementation is. Note also that this is... where the bugs are going to be. If you find them, please yell at me.
 
 
 ## Installation and Usage
