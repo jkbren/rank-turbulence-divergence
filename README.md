@@ -54,11 +54,8 @@ for comparing complex systems.**
 Bibtex: 
 ```text
 @article{dodds2020rtd,
-  title = {Allotaxonometry and rank-turbulence divergence: A universal
-           instrument for comparing complex systems},
-  author = {Dodds, P.S. and Minot, J. R. and Arnold, M. V. and Alshaabi, T.
-            and Adams, J. L. and Dewhurst, D. R. and Gray, T. J. and
-            Frank, M. R. and Reagan, A. J. and Danforth C. M.},
+  title = {Allotaxonometry and rank-turbulence divergence: A universal instrument for comparing complex systems},
+  author = {Dodds, P.S. and Minot, J. R. and Arnold, M. V. and Alshaabi, T. and Adams, J. L. and Dewhurst, D. R. and Gray, T. J. and Frank, M. R. and Reagan, A. J. and Danforth C. M.},
   journal = {arXiv},
   year = {2020},
   url = {https://arxiv.org/abs/2002.09770}
