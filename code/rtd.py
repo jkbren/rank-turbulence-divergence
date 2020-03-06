@@ -65,8 +65,8 @@ def get_rank_dictionary(X, C):
     Parameters
     ----------
     X (list or np.ndarray or dict):
-        Either a list of raw data (which will need to be counted) and reshaped
-        or a dictionary of {element:count}s or a rank-ordered list of elements.
+        Either a list of raw data (which will need to be counted and reshaped)
+        or a dictionary of {element:counts} or a rank-ordered list of elements.
         See the documentation for rank_turbulence_divergence for more details
         about what types of inputs should be provided.
 
@@ -116,7 +116,7 @@ def get_rank_dictionary(X, C):
 
 
 def rank_turbulence_divergence(X1, X2, alpha=1.0):
-    """
+    r"""
     Calculates the rank turbulence divergence between two ordered rankings,
     $R_1$ and $R_2$. This is done via the following equation, with a tunable
     ``inverse temperature'' parameter, alpha.
