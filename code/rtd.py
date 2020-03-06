@@ -76,7 +76,7 @@ def get_rank_dictionary(X, C):
 
     if type(X) == dict:
         dtype_dict = True
-        N = len(set(list(X.keys())))
+        N = len(X)
         c = X.copy()
     else:
         dtype_dict = False
