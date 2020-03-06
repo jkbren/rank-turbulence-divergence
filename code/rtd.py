@@ -42,17 +42,7 @@ def get_combined_domain(X1, X2):
 
     """
 
-    if type(X1) == dict:
-        domain1 = list(X1.keys())
-    else:
-        domain1 = list(X1)
-
-    if type(X2) == dict:
-        domain2 = list(X2.keys())
-    else:
-        domain2 = list(X2)
-
-    combined_domain = list(set(domain1 + domain2))
+    combined_domain = list(set(X1) | set(X2))
 
     return combined_domain
 
