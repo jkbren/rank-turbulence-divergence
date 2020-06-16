@@ -52,6 +52,13 @@ the following packages / tools:
 
 **<p align="center">Fig. 1: *Rank-turbulence divergence* betweeen two simple vectors.</center>**
 
+<p align="center">
+<img src="figs/pngs/matlab_f1.png" alt="rank_turb" width="90%"/>
+</p>
+
+**<p align="center">Fig. 2: Matlab version: *Rank-turbulence divergence*.</center>**
+
+Note: Fig. 2 is a validation using [this Matlab code from the authors](https://gitlab.com/compstorylab/allotaxonometer/-/tree/master).
 - - - -
 
 ## Basic usage
